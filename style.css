@@ -1,0 +1,169 @@
+/* Navbar */
+
+.buttonp{
+  background-color: #1D3557;
+  color: white;
+  padding: 7px 26px 7px 26px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 17px;
+}
+
+.buttonp:hover{
+  background-color: #162841;
+}
+
+.buttons{
+  color: #1D3557;
+  border: 2px solid #1D3557;
+  background-color: #F1FAEE;
+  padding: 7px 36px 7px 36px;
+  border-radius: 10px;
+}
+
+.buttons:hover{
+  background-color: #162841;
+  border: 2px solid #162841;
+  color: white;
+}
+
+.navbar-nav li a{
+  margin-right: 30px;
+  text-decoration: none;
+  color: #1D3557;
+}
+
+.navbar-nav li a:hover {
+  color: #d2dad0;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url("img/img_header.png");
+  background-size: cover;
+  height: 650px;
+  position: relative;
+}
+
+.jumbotron .container {
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron .container h1 {
+  font-family: 'Playfair Display';
+}
+
+.jumbotron .container p {
+  font-family: 'Poppins';
+  font-size: 1rem;
+}
+
+/* About Us */
+
+.aboutus{
+  font-family: 'poppins';
+}
+
+.aboutus p{
+  text-align: justify;
+}
+
+/* Our Trip */
+
+.btn_ourtrip{
+  color: #1D3557;
+  text-decoration: none;
+}
+
+.btn_ourtrip:hover{
+  color: #1D3557;
+}
+
+.ourtrip{
+  font-family:'Poppins';
+}
+
+.ourtrip p{
+  font-size: 10pt;
+  font-weight: 600;
+}
+
+/* testimoni */
+
+.testimonials{
+  font-family:'Poppins';
+}
+
+/* contact us */
+
+.contactus{
+  font-family:'Poppins';  
+}
+
+.icon{
+  float: left;
+}
+
+.info li{
+  display: inline;
+}
+
+.form{ 
+  margin: 20px;
+  border: none;
+}
+
+input[type=text] {
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  background-color: #F1FAEE;
+}
+
+.form .buttonp{
+  border-radius: 0px 10px 10px 0px;
+  height: 100%;
+  margin: 0px;
+}
+
+/* footer */
+
+.footer{
+  font-family:'Poppins';
+  background-color: #1D3557;
+  color: white;
+  padding: 40px;
+}
+
+.navbar2 li{
+  display: inline;
+}
+
+.navbar2 li a{
+  text-decoration: none;
+  color: white;
+}
+
+.navbar2 li a:hover{
+  color: #162841;
+}
+
+.link li{
+  list-style: none;
+}
+
+.link li a:hover{
+  color: #162841;
+}
+
+.link li a{
+  text-decoration: none;
+  color: white;
+}
+
+/* * */
+section{
+  padding: 50px;
+}
